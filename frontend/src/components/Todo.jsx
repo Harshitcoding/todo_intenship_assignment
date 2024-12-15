@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Trash2, Edit, Plus, Check, X } from 'lucide-react';
 
-const API_URL = 'http://localhost:3000/tasks';
+const API_URL = 'https://todo-intenship-assignment.vercel.app/tasks';
 
 const Todo = () => {
   const [tasks, setTasks] = useState([]);
